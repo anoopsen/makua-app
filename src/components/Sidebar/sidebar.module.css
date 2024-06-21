@@ -1,0 +1,104 @@
+.sidebar {
+  width: 350px;
+  height: 78vh;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  border-radius: 20px;
+  padding: 40px 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+  margin-left: 45px;
+}
+.sidebar h5 {
+  margin-bottom: 15px;
+  margin-left: 60px;
+  font-weight: 600;
+  font-size: 20;
+  line-height: 16px;
+}
+
+.sidebar li a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li a:hover {
+  background-color: #f3f4f6;
+}
+
+.sidebar .logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.downloadButtonContainer {
+  width: 248px;
+  height: 225px;
+  padding: 20px 0 0 10;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.downloadButton {
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #ee2e12;
+  padding: 15px 30px;
+  gap: 15px;
+  background-color: #fff;
+  color: #ee2e12;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logoImage {
+  width: 173px;
+  height: 48px;
+}
+.sidetext {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.communities {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color: #000000;
+  margin-left: 60px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}

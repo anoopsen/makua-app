@@ -1,0 +1,35 @@
+.image-container {
+  position: relative;
+}
+
+.imageheader {
+  width: 718px;
+  height: 386px;
+  position: absolute;
+  top: 15px;
+  left: 388px;
+}
+
+.secondimageheader {
+  width: 640px;
+  height: 350px;
+  position: absolute;
+  top: 10px;
+  left: 425px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.imageoverlay {
+  width: 650px;
+  height: 168px;
+  position: absolute;
+  top: 430px;
+  border-radius: 20px 20px 0 0;
+  padding: 30px 30px 20px 30px;
+  gap: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
